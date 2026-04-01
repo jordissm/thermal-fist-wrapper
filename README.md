@@ -12,20 +12,46 @@ This is a framework to calculate the Hadron Resonance Gas (HRG) susceptibilities
 - Efficient output in HDF5 format
 
 ## Installation
-To install prerequisites, while on the main project directory, execute
+
+The installation of the package is performed in three steps:
+
+1) Create a virtual environment
+2) Activate the virtual environment
+3) Install the package
+
+### 1) Create a virtual environment
+
+To create a virtual environment,
+
 ```terminal
-pip install -r requirements.txt
+python3 -m venv .thermal-fit-wrapper-venv
+```
+
+This will create a (hidden) directory named `.thermal-fit-wrapper-venv` with the virtual environment.
+
+### 2) Activate the virtual environment
+
+On Linux/macOS, type
+
+```terminal
+source .thermal-fit-wrapper-venv/bin/activate
+```
+
+and on Windows (PowerShell),
+
+```terminal
+.\.thermal-fit-wrapper-venv\Scripts\Activate.ps1
+```
+
+### 3) Installing the package
+
+```terminal
+pip install -e '.[dev]'
 ```
 
 ## Usage
-To generate vdW EoS interaction parameters according to a specified prescription,
 ```terminal
-python
-```
-
-To launch [`Thermal-FIST`](https://github.com/vlvovch/Thermal-FIST) and iterate over all possible interaction parameters,
-```terminal
-python src/cli.py
+thermal-fit-wrapper <SCRIPT-NAME>
 ```
 
 ## Citation

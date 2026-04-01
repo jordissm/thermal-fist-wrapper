@@ -1,0 +1,22 @@
+analysis: scan_chi2
+
+paths:
+  tf_root: /Applications/Thermal-FIST
+  # tf_inc:  /Applications/Thermal-FIST/include
+  # tf_lib:  /Applications/Thermal-FIST/build-shared/lib
+
+params:
+  Tmin: 0.140
+  Tmax: 0.175
+  dT:   0.001
+  muBmin: 0.0
+  muBmax: 0.05
+  dmuB:   0.001
+  model_type: 0
+  particle_list: "/Users/jordi/Box/Research/papers/2309.01737/PDG2021Plus/hadron-lists/PDG2021Plus/for_Thermal-FIST/PDG2021Plus-1.0_list.dat"
+  decays_list: "/Users/jordi/Box/Research/papers/2309.01737/PDG2021Plus/hadron-lists/PDG2021Plus/for_Thermal-FIST/PDG2021Plus-1.0_full_decays.dat"
+  data_file: "/Users/jordi/Box/Research/papers/2411.03705/thermal_fits/yield_ratios/data/STAR-UU200GeV_feeddown_corrected.dat"
+  outdir: ./output
+
+runtime:
+  workers: 8

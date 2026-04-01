@@ -1,0 +1,25 @@
+analysis: low_T_table
+
+paths:
+  tf_root: /Applications/Thermal-FIST-1.5.2
+
+params:
+  Tmin: 0.030
+  Tmax: 0.030
+  dT: 0.030
+  muBmin: -0.800
+  muBmax: 0.800
+  dmuB: 0.200
+  muQmin: -0.800
+  muQmax: 0.800
+  dmuQ: 0.200
+  muSmin: -0.800
+  muSmax: 0.800
+  dmuS: 0.200
+  model_type: 0
+  particle_list: "/Users/jordi/Box/Research/papers/2309.01737/PDG2021Plus/hadron-lists/PDG2021Plus/for_Thermal-FIST/PDG2021Plus-1.0_list.dat"
+  decays_list: "/Users/jordi/Box/Research/papers/2309.01737/PDG2021Plus/hadron-lists/PDG2021Plus/for_Thermal-FIST/PDG2021Plus-1.0_full_decays.dat"
+  outdir: ./output
+
+runtime:
+  workers: 8

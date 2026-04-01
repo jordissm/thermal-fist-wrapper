@@ -1,0 +1,25 @@
+analysis: T_muB_muQ_scan_chi2
+
+paths:
+  tf_root: /Applications/Thermal-FIST
+  # tf_inc:  /Applications/Thermal-FIST/include
+  # tf_lib:  /Applications/Thermal-FIST/build-shared/lib
+
+params:
+  Tmin: 0.155
+  Tmax: 0.165
+  dT:   0.0010
+  muBmin: 0.0000
+  muBmax: 0.0500
+  dmuB:   0.0005
+  muQmin: -0.0100
+  muQmax: 0.0050
+  dmuQ:   0.0001
+  model_type: 0
+  particle_list: "/Users/jordi/Box/Research/papers/2309.01737/PDG2021Plus/hadron-lists/PDG2021Plus/for_Thermal-FIST/PDG2021Plus-1.0_list.dat"
+  decays_list: "/Users/jordi/Box/Research/papers/2309.01737/PDG2021Plus/hadron-lists/PDG2021Plus/for_Thermal-FIST/PDG2021Plus-1.0_full_decays.dat"
+  data_file: "/Users/jordi/Box/Research/papers/2411.03705/thermal-fit-wrapper/input/experimental_data/STAR-AuAu200GeV_feeddown_corrected_w_hyperons.dat"
+  outdir: ./output
+
+runtime:
+  workers: 8

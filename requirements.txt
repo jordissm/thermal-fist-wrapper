@@ -1,4 +1,0 @@
-rich
-pyyaml
-h5py
-numpy

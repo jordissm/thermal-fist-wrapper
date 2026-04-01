@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "thermal-fist-wrapper"
+version = "0.1.0"
+description = "CLI wrapper for Thermal-FIST"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Jordi Salinas" }]
+dependencies = [
+    "cppyy>=2.5", 
+    "pydantic>=2.7", 
+    "tqdm>=4.66",
+    "rich>=13", 
+    "pandas>=2.0", 
+    "pyyaml>=6.0", 
+    "h5py>=3.8"
+]
+
+[project.scripts]
+thermal-fist-wrapper = "thermal_fist_wrapper.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src/thermal_fist_wrapper"]
+
+# Development dependencies (install with: pip install -e '.[dev]')
+[project.optional-dependencies]
+dev = ["pylint", "black"]

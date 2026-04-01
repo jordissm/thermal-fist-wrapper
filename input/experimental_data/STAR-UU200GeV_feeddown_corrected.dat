@@ -1,0 +1,20 @@
+# File with STAR 0-5% (or 0-10%) at 200 GeV data for thermal fits 
+#
+# Each line corresponds to one entry
+# If pdg2 == 0, then entry is a yield of particle with pdg1, otherwise it is a ratio pdg1/pdg2
+#
+# feeddown1/feeddown2: 0 - primordial, 1 - primordial + decays of particles marked unstable, 
+# 2 - primordial + strong + electromagnetic + weak decays, 
+# 3 - primordial + strong + electromagnetic decays, 4 - primordial + strong decays
+# Note: if options 2, 3, or 4 for feeddown are used, make sure that the particle list
+# contains correct particle data groups ids for all weakly and electromagnetically
+# decaying particles, and that all strongly decaying particles are marked unstable
+#
+# flag is_fitted determines whether given yield contributes to chi2
+#
+#     is_fitted           pdg1           pdg2      feeddown1      feeddown2          value          error
+              1           -211            211              1              1         1.0050         0.0560       #pi-/pi+
+	          1           -321            321              1              1         0.9380         0.0660       #K-/K+
+              1          -2212           2212              1              1         0.7290         0.0710       #anti-p/p
+              1           -321           -211              1              1         0.1450         0.0200       #K-/pi-
+              1          -2212           -211              1              1         0.0489         0.0076       #anti-p/pi-

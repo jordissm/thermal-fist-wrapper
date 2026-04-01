@@ -1,0 +1,19 @@
+{
+    "python.defaultInterpreterPath": "${workspaceFolder}/.thermal-fit-wrapper-venv/bin/python",
+
+    "files.associations": {
+        "iomanip": "cpp",
+        "string": "cpp",
+        "format": "cpp"
+    },
+
+    // Linting (enable Pylint or Flake8 if you want)
+    "pylint.enabled": true,
+    "pylint.args": ["--disable=W0603"],
+
+  // Formatting (black is common; install with pip install black)
+    "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+    }
+}

@@ -1,0 +1,20 @@
+# File with ALICE 0-10% at 5.04 TeV data for thermal fits 
+#
+# Each line corresponds to one entry
+# If pdg2 == 0, then entry is a yield of particle with pdg1, otherwise it is a ratio pdg1/pdg2
+#
+# feeddown1/feeddown2: 0 - primordial, 1 - primordial + decays of particles marked unstable, 
+# 2 - primordial + strong + electromagnetic + weak decays, 
+# 3 - primordial + strong + electromagnetic decays, 4 - primordial + strong decays
+# Note: if options 2, 3, or 4 for feeddown are used, make sure that the particle list
+# contains correct particle data groups ids for all weakly and electromagnetically
+# decaying particles, and that all strongly decaying particles are marked unstable
+#
+# flag is_fitted determines whether given yield contributes to chi2
+#
+#     is_fitted           pdg1           pdg2      feeddown1      feeddown2          value          error
+              1           -211            211              3              3         1.0030         0.0500       #pi-/pi+
+	      1           -321            321              3              3         0.9360         0.0510       #K-/K+
+              1          -2212           2212              3              3         0.7710         0.0380       #anti-p/p
+              1           3210           2110              3              3       0.161145       0.011797       #K++K-/pi++pi-
+              1          22120           2110              3              3       0.044217       0.003418	#p+anti-p/pi++pi-
