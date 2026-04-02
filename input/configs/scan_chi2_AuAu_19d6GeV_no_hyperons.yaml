@@ -18,7 +18,7 @@ params:
   model_type: 0
   particle_list: "/Users/jordi/Box/Research/papers/2309.01737/PDG2021Plus/hadron-lists/PDG2021Plus/for_Thermal-FIST/PDG2021Plus-1.0_list.dat"
   decays_list: "/Users/jordi/Box/Research/papers/2309.01737/PDG2021Plus/hadron-lists/PDG2021Plus/for_Thermal-FIST/PDG2021Plus-1.0_full_decays.dat"
-  data_file: "/Users/jordi/Box/Research/papers/2411.03705/thermal-fit-wrapper/input/experimental_data/STAR-AuAu7.7GeV_feeddown_corrected.dat"
+  data_file: "/Users/jordi/Box/Research/papers/2411.03705/thermal-fist-wrapper/input/experimental_data/STAR-AuAu19.6GeV_feeddown_corrected.dat"
   outdir: ./output
 
 runtime:

@@ -1,8 +1,8 @@
-#     is_fitted           pdg1           pdg2      feeddown1      feeddown2          value          error		#ratio
+#     is_fitted           pdg1           pdg2      feeddown1      feeddown2           value         error		    #ratio
               1           -211            211             1              1            1.071         0.062129		#pi-/pi+
               1           -321            321             1              1            0.37          0.016125		#k-/k+
               1           -2212           2212            1              1            0.00702348    0.00060806		#pbar/p
               1            321            211             1              1            0.2227        0.021918		#k+/pi+
               1            2212           211             1              1            0.38808       0.04819782		#p/pi+
               1           -321            -211            1              1            0.077         0.007616		#k-/pi-
-              1		  -2212		  -211		  1		 1	      0.00253365    0.00036258		#pbar/pi-
+              1           -2212           -211		      1              1            0.00253365    0.00036258		#pbar/pi-
