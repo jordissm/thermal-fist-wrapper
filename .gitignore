@@ -28,3 +28,6 @@ ENV/
 .DS*
 .DS_Store
 Thumbs.db
+
+# Output
+output/
