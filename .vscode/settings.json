@@ -1,5 +1,5 @@
 {
-    "python.defaultInterpreterPath": "${workspaceFolder}/.thermal-fit-wrapper-venv/bin/python",
+    "python.defaultInterpreterPath": "${workspaceFolder}/.thermal-fist-wrapper-venv/bin/python",
 
     "files.associations": {
         "iomanip": "cpp",
