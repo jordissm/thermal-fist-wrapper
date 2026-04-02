@@ -6,12 +6,12 @@ paths:
   # tf_lib:  /Applications/Thermal-FIST/build-shared/lib
 
 params:
-  Tmin: 0.137
-  Tmax: 0.153
+  Tmin: 0.140
+  Tmax: 0.161
   dT:   0.0005
-  muBmin: 0.3500
-  muBmax: 0.4100
-  dmuB:   0.0005
+  muBmin: 0.1500
+  muBmax: 0.3600
+  dmuB:   0.005
   muQmin: -0.0100
   muQmax: 0.0050
   dmuQ:   0.0001

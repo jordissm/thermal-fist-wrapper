@@ -6,14 +6,14 @@ paths:
   # tf_lib:  /Applications/Thermal-FIST/build-shared/lib
 
 params:
-  Tmin: 0.137
-  Tmax: 0.153
+  Tmin: 0.149
+  Tmax: 0.171
   dT:   0.0005
-  muBmin: 0.3500
-  muBmax: 0.4100
+  muBmin: 0.0000
+  muBmax: 0.1500
   dmuB:   0.0005
   muQmin: -0.0100
-  muQmax: 0.0050
+  muQmax: 0.0100
   dmuQ:   0.0001
   model_type: 0
   particle_list: "/Users/jordi/Box/Research/papers/2309.01737/PDG2021Plus/hadron-lists/PDG2021Plus/for_Thermal-FIST/PDG2021Plus-1.0_list.dat"
