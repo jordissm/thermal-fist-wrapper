@@ -54,8 +54,16 @@ pip install -e '.[dev]'
 
 ## Usage
 
+The package allows the user to plug-and-play scripts by creating configuration files that point to user-created analyses. Execution of the wrapper is done by typing
+
 ```terminal
-thermal-fit-wrapper <SCRIPT-NAME>
+thermal-fist-wrapper run --config <CONFIG-FILE>
+```
+
+An example would be the following:
+
+```terminal
+thermal-fist-wrapper run --config input/configs/scan_chi2_AuAu_7d7GeV_no_hyperons.yaml --log-level="DEBUG"
 ```
 
 ## Citation
