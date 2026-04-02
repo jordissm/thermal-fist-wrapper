@@ -27,23 +27,23 @@ The installation of the package is performed in three steps:
 To create a virtual environment, in a new terminal,
 
 ```terminal
-python3 -m venv .thermal-fit-wrapper-venv
+python3 -m venv .thermal-fist-wrapper-venv
 ```
 
-This will create a (hidden) directory named `.thermal-fit-wrapper-venv` with the virtual environment.
+This will create a (hidden) directory named `.thermal-fist-wrapper-venv` with the virtual environment.
 
 ### 2) Activate the virtual environment
 
 On Linux/macOS, type
 
 ```terminal
-source .thermal-fit-wrapper-venv/bin/activate
+source .thermal-fist-wrapper-venv/bin/activate
 ```
 
 and on Windows (PowerShell),
 
 ```terminal
-.\.thermal-fit-wrapper-venv\Scripts\Activate.ps1
+.\.thermal-fist-wrapper-venv\Scripts\Activate.ps1
 ```
 
 ### 3) Installing the package
