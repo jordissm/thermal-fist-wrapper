@@ -31,3 +31,6 @@ Thumbs.db
 
 # Output
 output/
+
+# Analysis files
+notebooks/
